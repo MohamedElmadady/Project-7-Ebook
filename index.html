@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="StyleSheet" href="css/normalize.css">
+    <!-- Css Master -->
+    <link rel="StyleSheet" href="css/index.css">
+    <!-- font Awesome -->
+    <link rel="StyleSheet" href="css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <title>ebook</title>
+</head>
+<body>
+
+    <div class="header" id="header">
+        
+        <nav class="nav-bar">
+            <div class="container">
+                <a href="#" id="logo">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>ebook</span>
+                </a>
+                <div class="links">
+                    <ul>
+                        <li><a class="active btn-head "onclick="removeadd(this)" href="#home">Home</a></li>
+                        <li><a  class="btn-head"onclick="removeadd(this)" href="#book">The Book</a></li>
+                        <li><a class="btn-head" onclick="removeadd(this)" href="#author">Author</a></li>
+                        <li><a class="btn-head" onclick="removeadd(this)"href="#reviews">Reviews</a></li>
+                        <li><a class="btn-head btn-contact" onclick="removeadd(this)" href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="btn-download">
+                        <a class="btn" href="#">
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                            <span>Download</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-bar" id="btn-show">
+                    <span id="one"></span>
+                    <span id="two"></span>
+                    <span id="three"></span>
+                </div>
+                <div class="phone-links" id="phone-links">
+                    <ul>
+                        <li><a  onclick="removeadd(this)" class="active btn-head" href="#home">Home</a></li>
+                        <li><a onclick="removeadd(this)" class="btn-head" href="#book">The Book</a></li>
+                        <li><a  onclick="removeadd(this)" class="btn-head" href="#author">Author</a></li>
+                        <li><a  onclick="removeadd(this)" class="btn-head" href="#reviews">Reviews</a></li>
+                        <li><a  onclick="removeadd(this)" class="btn-head btn-contact" onclick="removeadd(this)" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="home" id="home">
+        <div class="container">            
+            <div class="row">
+                <div class="text">
+                    <h4 class="heading">Introducing ebook</h4>
+                    <h2 class="info">ebook landing page for professionals</h2>
+                    <div class="btn">
+                        <a href="#book" class="discover">Discover More</a>
+                        <a href="#author" class="meet">Meet The Author</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/Screenshot 2023-11-18 201057jpg (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rating">
+        <div class="container">
+            <div class="row">   
+                <div class="image">
+                    <img src="images/wallpaperflare-cropped (2).jpg">
+                    <img src="images/wallpaperflare-cropped.jpg">
+                    <img src="images/wallpaperflare-cropped (1).jpg">
+                    <img src="images/avater3.jpg">
+                </div>
+                <div class="text">
+                    <div class="big">                    
+                        <strong>4.5</strong>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <small>2,564 reviews</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book wedget" id="book">
+        <div class="container">
+            <div class="row">
+                <div class="image">
+                    <img src="images/tablet-screen-contents.jpg">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        Modern & Creative
+                    </div>
+                    <div class="info2">
+                        About The Book
+                    </div>
+                    <p class="pagrh">
+                        Credit goes to <a> FreePik </a> for images used in this ebook landing page template. You may browse FreePik to download more free
+                        images for your website.
+                    </p>
+                    <p>
+                        TemplateMo is one of the best websites to download free CSS templates for any purpose. This is an ebook landing page
+                        template using Bootstrap 5 CSS layout.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
